@@ -22,7 +22,7 @@ const testi_data: DataType[] = [
   },
   {
     id: 2,
-    desc: "At Shri Navkar Blowpack, we strive for excellence by blending cutting-edge technology with customer-centric solutions. Together, we aim to deliver packaging that sets industry benchmarks and fosters long-term partnership.",
+    desc: "At Shri Roopal-Finance , we strive for excellence by blending cutting-edge technology with customer-centric solutions. Together, we aim to deliver packaging that sets industry benchmarks and fosters long-term partnership.",
     name: "Deepak Nahar Ji",
     designation: "MD’s Message",
     tempData: "- Managing Director",
@@ -35,11 +35,7 @@ const testi_data: DataType[] = [
   // },
 ];
 
-const testi_thumb: string[] = [
-  "/assets/img/NAVKARSOCIALMEDIAPOST1.png",
-  "/assets/img/NAVKARSOCIALMEDIAPOST2NF.png",
-  "/assets/img/testimonial/03.jpg",
-];
+const testi_thumb: string[] = ["/assets/img/testimonial/03.jpg"];
 
 const Testimonial = ({ padding }: any) => {
   const swiper1Ref = useRef<any>(null);

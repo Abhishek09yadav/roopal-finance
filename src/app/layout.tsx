@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={isDev}>
       <head>
-        <meta name="Navkar" content="Navkar" />
+        <meta name="" content="" />
         <link rel="icon" href="/favicon.svg" sizes="any" />
         <link
           rel="stylesheet"

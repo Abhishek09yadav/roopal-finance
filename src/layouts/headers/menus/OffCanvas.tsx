@@ -25,12 +25,12 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                 </div>
               </div>
               <p className="text d-none d-lg-block">
-                Shri Navkar Blowpack was established in 1984 with a vision to
-                provide high-quality packaging solutions to industries that
-                demand reliability and precision. Starting with our first
-                facility in Ankleshwar, we have expanded our capabilities to
-                include a second facility in Panoli, ensuring we meet growing
-                demands and maintain our position as a leader in the industry.
+                Shri Navkar was established in 1984 with a vision to provide
+                high-quality packaging solutions to industries that demand
+                reliability and precision. Starting with our first facility in
+                Ankleshwar, we have expanded our capabilities to include a
+                second facility in Panoli, ensuring we meet growing demands and
+                maintain our position as a leader in the industry.
               </p>
               <div className="mobile-menu fix mb-5 mean-container d-block d-lg-none">
                 <div className="mean-bar">
@@ -59,7 +59,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     <div className="offcanvas__contact-text">
                       <Link href="tel:+013-003-003-9993">
                         <span className="mailto:info@enofik.com">
-                          info@shrinavkarblowpack.com
+                          info@shriRoopal-Finance.com
                         </span>
                       </Link>
                     </div>

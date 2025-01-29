@@ -27,8 +27,8 @@ const faq_contact_data: DataType[] = [
     id: 2,
     data_wow_delay: ".5s",
     title: "Mail Address",
-    contact_1: <>info@shrinavkarblowpack.com</>,
-    contact_2: <>info@shrinavkarblowpack.com</>,
+    contact_1: <>info@shriRoopal-Finance.com</>,
+    contact_2: <>info@shriRoopal-Finance.com</>,
   },
   {
     id: 3,
