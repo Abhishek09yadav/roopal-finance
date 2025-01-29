@@ -8,7 +8,7 @@ import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 
 // import logo from "@/assets/img/logo/logo.svg";
-import logo from "@/assets/img/Logo.png";
+import logo from "../../../public/assets/img/logo.png";
 import dot_icon from "@/assets/img/dot.png";
 
 const HeaderOne = ({ headerTop }: any) => {
