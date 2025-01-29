@@ -8,7 +8,8 @@ import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 
 // import logo from "@/assets/img/logo/logo.svg";
-import logo from "@/assets/img/roopa-images/Logo.png";
+import logo from "@/assets/img/logo.jpeg";
+
 import dot_icon from "@/assets/img/dot.png";
 
 const HeaderOne = ({ headerTop }: any) => {
@@ -36,7 +37,7 @@ const HeaderOne = ({ headerTop }: any) => {
                     <Link href="/" className="header-logo">
                       <Image
                         src={logo}
-                        alt="roopa-logo-img"
+                        alt="roopal-logo-img"
                         style={{
                           height: "40px",
                           width: "auto",
