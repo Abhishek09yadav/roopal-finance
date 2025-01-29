@@ -108,19 +108,26 @@ const Hero = () => {
                   <div className="row g-4 align-items-center justify-content-between">
                     <div className="col-xl-9">
                       <div className="hero-content">
-                        <h2 style={{fontSize:"50px"}} data-animation="fadeInUp" data-delay="1.3s">
-                          &quot;Your Path to Financial Mastery
-                          Starts Here with <></>
+                        <h2
+                          style={{ fontSize: "50px" }}
+                          data-animation="fadeInUp"
+                          data-delay="1.3s"
+                        >
+                          &quot;Your Path to Financial Mastery Starts Here with{" "}
+                          <></>{" "}
                           <span style={{ color: "#ffe000" }}>
-                           Roopal Kanjara
+                            {" "}
+                            Roopal Kanjara{" "}
                           </span>
+                          &quot;
                         </h2>
                         <h2 data-animation="fadeInUp" data-delay="1.5s">
                           - Premier Wealth Coach.&quot;
                         </h2>
                         <p style={{ color: "white", whiteSpace: "none" }}>
-                          Unlock your financial potential and take charge of your investments with expert guidance from Roopal Kanjara.
-
+                          Unlock your financial potential and take charge of
+                          your investments with expert guidance from Roopal
+                          Kanjara.
                         </p>
                         <div className="hero-button">
                           {/*<Link*/}
@@ -135,17 +142,17 @@ const Hero = () => {
                           {/*  Explore More*/}
                           {/*</Link>*/}
                           <a
-                              href="https://wa.me/919098333333"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              data-animation="fadeInUp"
-                              data-delay="1.7s"
-                              className="theme-btn-2 yellow-border"
+                            href="https://wa.me/919098333333"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-animation="fadeInUp"
+                            data-delay="1.7s"
+                            className="theme-btn-2 yellow-border"
                           >
                             Connect Now
                             <span className="shape-img">
-    <Image src={hero_shape_2} alt="shape-img"/>
-  </span>
+                              <Image src={hero_shape_2} alt="shape-img" />
+                            </span>
                           </a>
                         </div>
                       </div>
