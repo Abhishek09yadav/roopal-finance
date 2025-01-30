@@ -69,7 +69,7 @@ const Project = () => {
                 <div className="row">
                   <div className="col-md-8">
                     <p className="wow fadeInUp" data-wow-delay=".3s">
-                      With manufacturing facilities in Ankleshwar and Panoli, we
+                      With manufacturing facilities in surat and Mundapali, we
                       specialize in providing custom-made and industry-standard
                       packaging solutions for Agrochemicals, Pesticides,
                       Fungicides, Bio-nutrients, Farm Chemicals, and more.

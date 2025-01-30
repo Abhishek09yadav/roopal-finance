@@ -18,14 +18,19 @@ const FooterOne = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <Image src={logo} alt="logo-img" style={{ width: '170px',backgroundColor:"white", height: 'auto' }} />
+                    <Image
+                      src={logo}
+                      alt="logo-img"
+                      style={{
+                        width: "170px",
+                        backgroundColor: "white",
+                        height: "auto",
+                      }}
+                    />
                   </Link>
                 </div>
                 <div className="footer-content">
-                  <p>
-                    123 Anywhere St., Any City, ST 12345
-
-                  </p>
+                  <p>123 Anywhere St., Any City, ST 12345</p>
                   <ul className="contact-info">
                     {/* <li>
                       <i className="fas fa-map-marker-alt"></i>
@@ -33,8 +38,7 @@ const FooterOne = () => {
                     </li> */}
                     <li>
                       <i className="fa-solid fa-phone-volume"></i>
-                      <Link href="tel:2086660112">+91 9098333333
-                      </Link>
+                      <Link href="tel:9098333333">+91 9098333333</Link>
                     </li>
                   </ul>
                 </div>
@@ -51,7 +55,7 @@ const FooterOne = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="/about">
+                    <Link href="/">
                       <i className="fa-solid fa-chevron-right"></i>About
                     </Link>
                   </li>
@@ -78,7 +82,6 @@ const FooterOne = () => {
                 </ul>
               </div>
             </div>
-
           </div>
         </div>
       </div>

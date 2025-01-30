@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "@/assets/img/logo/logo.svg";
+import logo from "@/assets/img/logo.png";
 import NavMenu from "./NavMenu";
 import MobileMenu from "./MobileMenu";
 
@@ -15,7 +15,11 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <Image src={logo} alt="logo-img" />
+                    <Image
+                      src={logo}
+                      alt="logo-img"
+                      style={{ width: "100px", height: "100px" }}
+                    />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -25,12 +29,13 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                 </div>
               </div>
               <p className="text d-none d-lg-block">
-                Shri Navkar was established in 1984 with a vision to provide
-                high-quality packaging solutions to industries that demand
-                reliability and precision. Starting with our first facility in
-                Ankleshwar, we have expanded our capabilities to include a
-                second facility in Panoli, ensuring we meet growing demands and
-                maintain our position as a leader in the industry.
+                Roopal Kanjara is a seasoned wealth coach and financial expert
+                based in Navsari, Gujarat. With over a decade of experience in
+                portfolio management, trading strategies, and financial
+                education, Roopal has transformed the financial lives of
+                individuals and businesses alike. Her holistic approach combines
+                technical expertise with an understanding of clients unique
+                needs, making her a trusted name in wealth coaching.
               </p>
               <div className="mobile-menu fix mb-5 mean-container d-block d-lg-none">
                 <div className="mean-bar">
@@ -48,7 +53,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        123 Anywhere St., Any City, ST 12345
                       </Link>
                     </div>
                   </li>
@@ -59,7 +64,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     <div className="offcanvas__contact-text">
                       <Link href="tel:+013-003-003-9993">
                         <span className="mailto:info@enofik.com">
-                          info@shriRoopal-Finance.com
+                          info@Roopal-Finance-coach.com
                         </span>
                       </Link>
                     </div>
@@ -79,7 +84,13 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                       <i className="fas fa-phone-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link href="tel:+11002345909">+91 2646 251639</Link>
+                      <Link
+                        href="tel:+91 9098333333
+"
+                      >
+                        {" "}
+                        +91 9098333333
+                      </Link>
                     </div>
                   </li>
                 </ul>

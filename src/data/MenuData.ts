@@ -21,7 +21,8 @@ const menu_data: MenuItem[] = [
     id: 2,
     has_dropdown: false,
     title: "About",
-    link: "/about",
+    // link: "/about",
+    link: "/",
   },
   // {
   //    id: 3,
@@ -33,16 +34,16 @@ const menu_data: MenuItem[] = [
   //       { link: "/project-details", title: "Projects Details" },
   //    ],
   // },
-  {
-    id: 4,
-    has_dropdown: true,
-    title: "Services",
-    link: "#",
-    sub_menus: [
-      { link: "/service", title: "Services" },
-      { link: "/service-details", title: "Services Details" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   has_dropdown: true,
+  //   title: "Services",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/service", title: "Services" },
+  //     { link: "/service-details", title: "Services Details" },
+  //   ],
+  // },
 
   // {
   //    id: 6,

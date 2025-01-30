@@ -14,12 +14,12 @@ const faq_contact_data: DataType[] = [
     title: "Phone & Fax",
     contact_1: (
       <>
-        Mobile : <a href="tel:+912646251639">+91 2646 251639</a>
+        Mobile : <a href="tel:+912646251639">+91 9098333333</a>
       </>
     ),
     contact_2: (
       <>
-        Mobile : <a href="tel:+912646221638">+91 2646 221638</a>
+        Mobile : <a href="tel:+912646221638">+91 9098333333</a>
       </>
     ),
   },
@@ -27,15 +27,15 @@ const faq_contact_data: DataType[] = [
     id: 2,
     data_wow_delay: ".5s",
     title: "Mail Address",
-    contact_1: <>info@shriRoopal-Finance.com</>,
-    contact_2: <>info@shriRoopal-Finance.com</>,
+    contact_1: <>info@Roopal-Finance-coach.com</>,
+    contact_2: <>info@Roopal-Finance-coach.com</>,
   },
   {
     id: 3,
     data_wow_delay: ".7s",
-    title: "Factory Locations",
-    contact_1: <>Ankleshwar, Gujarat</>,
-    contact_2: <>Panoli, Gujarat</>,
+    title: "Locations",
+    contact_1: <>surat, Gujarat</>,
+    contact_2: <> Mundapali, Gujarat</>,
   },
   {
     id: 4,

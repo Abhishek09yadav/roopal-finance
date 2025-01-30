@@ -68,7 +68,7 @@ const Team = () => {
                   </h2>
                 </div>
                 <p className="mt-4 mt-md-0 wow fadeInUp">
-                  With manufacturing facilities in Ankleshwar and Panoli, we
+                  With manufacturing facilities in surat and Mundapali, we
                   specialize in providing custom-made and industry-standard
                   packaging solutions for Agrochemicals, Pesticides, Fungicides,
                   Bio-nutrients, Farm Chemicals, and more.
@@ -86,9 +86,6 @@ const Team = () => {
 
             <div className="col-xl-7 col-lg-7 mt-5 mt-lg-0">
               <div className="in-team-wrapper">
-                     
-
-
                 {team_data.map((item) => (
                   <div
                     key={item.id}

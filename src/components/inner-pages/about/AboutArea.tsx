@@ -17,16 +17,16 @@ const about_content: ContentType = {
   title: "Our Journey",
   desc_1: (
     <>
-      Shri Navkar was established in 1984 with a vision to provide high-quality
-      packaging solutions to industries that demand reliability and precision.
-      Starting with our first facility in Ankleshwar, we have expanded our
-      capabilities to include a second facility in Panoli, ensuring we meet
+      Roopal-financewas established in 1984 with a vision to provide
+      high-quality packaging solutions to industries that demand reliability and
+      precision. Starting with our first facility in surat, we have expanded our
+      capabilities to include a second facility in Mundapali, ensuring we meet
       growing demands and maintain our position as a leader in the industry.
     </>
   ),
   desc_2: (
     <>
-      With manufacturing facilities in Ankleshwar and Panoli, we specialize in
+      With manufacturing facilities in surat and Mundapali, we specialize in
       providing custom-made and industry-standard packaging solutions for
       Agrochemicals, Pesticides, Fungicides, Bio-nutrients, Farm Chemicals, and
       more.
