@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import about_arrow from "@/assets/img/arrow-shape.png";
-import about_thumb from "@/assets/img/about/about-2.jpg";
+import about_thumb from "@/assets/img/placeholder/665 x 732.png";
 
 interface ContentType {
   sub_title: string;
@@ -13,37 +13,21 @@ interface ContentType {
 }
 
 const about_content: ContentType = {
-  sub_title: "ABOUT TO industry",
-  title: "Our Journey",
+  sub_title: "About Roopal Kanjara",
+  title: "A Trusted Financial Expert and Coach",
   desc_1: (
     <>
-      Roopal-Wealth-Coachwas established in 1984 with a vision to provide
-      high-quality packaging solutions to industries that demand reliability and
-      precision. Starting with our first facility in surat, we have expanded our
-      capabilities to include a second facility in Mundapali, ensuring we meet
-      growing demands and maintain our position as a leader in the industry.
+      A Trusted Financial Expert and Coach Roopal Kanjara is a highly
+      experienced financial coach, dedicated to helping individuals and
+      businesses achieve their financial goals through expert guidance,
+      personalized investment strategies, and in-depth market insights. With
+      over a decade of hands-on experience in portfolio management, trading, and
+      wealth building, Roopal has earned a reputation for delivering consistent
+      and impactful results.
     </>
   ),
-  desc_2: (
-    <>
-      With manufacturing facilities in surat and Mundapali, we specialize in
-      providing custom-made and industry-standard packaging solutions for
-      Agrochemicals, Pesticides, Fungicides, Bio-nutrients, Farm Chemicals, and
-      more.
-    </>
-  ),
-  list: [
-    <>Weight Check</>,
-    <>
-      Uniform Thickness <br /> Measurement
-    </>,
-    <>
-      Leakage <br /> Testing
-    </>,
-    <>
-      Drop <br /> Testing
-    </>,
-  ],
+  desc_2: <></>,
+  list: [],
 };
 
 const { sub_title, title, desc_1, desc_2, list } = about_content;

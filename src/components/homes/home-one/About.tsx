@@ -22,18 +22,16 @@ interface DataType {
 }
 
 const about_data: DataType = {
-  sub_title: "ABOUT TO Industril",
-  title: (
-    <>
-      Success Pathway
-    </>
-  ),
+  sub_title: "Our Success Pathway to Financial Growth",
+  title: <>Follow these steps to unlock your financial potential:</>,
   desc: "",
   about_list: [
-    "Assess Your Current Financial Standing: Book a strategy call.",
-    "Craft a Personalized Investment Roadmap: Identify key investment opportunities.",
-    "Execute & Monitor: Start investing with confidence using Roopal’s guidance.",
-    "Achieve Financial Independence: Watch your wealth grow.",
+    "Assess Your Current Financial Standing: Start by understanding where you stand financially. Book a strategy call to review your income, expenses, savings, and investments.",
+    "Create a Personalized Investment Plan: Work with us to develop an investment strategy that aligns with your goals and risk tolerance, identifying the best opportunities for you.",
+    "Execute & Monitor Your Investments: Take action and begin investing confidently with Roopal’s guidance. Regularly monitor your progress and adjust as needed to stay on track.",
+    "Achieve Financial Independence: Watch your wealth grow as your investments work for you, bringing you closer to financial freedom.",
+    "Keep Learning & Improving: Stay updated on market trends and investment strategies to continually refine your approach and ensure sustained growth.",
+    "Take the first step toward financial success today!",
   ],
 };
 
@@ -57,7 +55,7 @@ const About = () => {
                   style={{
                     border: "4px solid white",
                     borderRadius: "10px",
-               objectFit: "cover",
+                    objectFit: "cover",
                   }}
                 >
                   <Image
@@ -95,32 +93,35 @@ const About = () => {
               <div className="col-xl-6 col-lg-8 mt-5 mt-xl-0">
                 <div className="about-content">
                   <div className="section-title">
-
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       {title}
                     </h2>
                   </div>
-                  <p >
-                  </p>
+                  <p></p>
                   <ul className="wow fadeInUp" data-wow-delay=".7s">
                     {about_list.map((list, i) => (
-                      <li key={i}>
+                      <li
+                        key={i}
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          gap: "10px",
+                        }}
+                      >
                         <i
                           className="fa-solid fa-circle-check"
-                          style={{ color: "#14b2f1" }}
+                          style={{ color: "#14b2f1", flexShrink: 0 }}
                         ></i>
-                        {list}
+                        <span>{list}</span>
                       </li>
                     ))}
                   </ul>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </>
   );
 };

@@ -22,7 +22,7 @@ const menu_data: MenuItem[] = [
     has_dropdown: false,
     title: "About",
     // link: "/about",
-    link: "/",
+    link: "/about",
   },
   // {
   //    id: 3,

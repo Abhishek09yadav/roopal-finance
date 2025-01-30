@@ -18,7 +18,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     <Image
                       src={logo}
                       alt="logo-img"
-                      style={{ width: "100px", height: "100px" }}
+                      style={{ width: "100%", height: "100px" }}
                     />
                   </Link>
                 </div>

@@ -39,7 +39,7 @@ const HeaderOne = ({ headerTop }: any) => {
                         src={logo}
                         alt="roopal-logo-img"
                         style={{
-                          height: "40px",
+                          height: "60px",
                           width: "auto",
                         }}
                       />

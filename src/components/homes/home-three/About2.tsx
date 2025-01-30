@@ -59,8 +59,8 @@ const About2 = () => {
                     style={{ alignSelf: "end" }}
                     data-wow-delay=".8s"
                   >
-                    <Link href="/" className="theme-btn-2"> 
-                    {/* /about */}
+                    <Link href="/about" className="theme-btn-2">
+                      {/* /about */}
                       Know More About Us
                       <span className="shape-img">
                         <Image src={about_arrow} alt="shape-img" />

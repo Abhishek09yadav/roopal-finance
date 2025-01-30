@@ -13,10 +13,10 @@ const About = () => {
          <HeaderOne headerTop={false} />
          <BreadCrumb title="About Us" />
          <AboutArea />
-         <Counter padding={false} />
-         <Video />
+         {/* <Counter padding={false} /> */}
+         {/* <Video /> */}
          <AboutTwo />
-         <Testimonial padding={false} />
+         {/* <Testimonial padding={false} /> */}
          <FooterOne />
       </>
    )

@@ -55,7 +55,7 @@ const FooterOne = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link href="/">
+                    <Link href="/about">
                       <i className="fa-solid fa-chevron-right"></i>About
                     </Link>
                   </li>
