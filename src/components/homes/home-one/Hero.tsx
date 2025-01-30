@@ -122,7 +122,7 @@ const Hero = () => {
                           &quot;
                         </h2>
                         <h2 data-animation="fadeInUp" data-delay="1.5s">
-                          - Premier Wealth Coach.&quot;
+                          - Premier Wealth Coach.
                         </h2>
                         <p style={{ color: "white", whiteSpace: "none" }}>
                           Unlock your financial potential and take charge of
