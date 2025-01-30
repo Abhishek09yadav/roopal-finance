@@ -24,10 +24,10 @@ const blog_details_content: ContentType = {
   desc_1: (
     <>
       The packaging industry is undergoing a transformation, driven by the
-      urgent need for sustainable solutions. At Roopal-Finance, we are at the
-      forefront of this change, combining innovation with environmental
+      urgent need for sustainable solutions. At Roopal-Wealth-Coach, we are at
+      the forefront of this change, combining innovation with environmental
       stewardship to redefine the way plastic packaging is manufactured. Here’s
-      how Roopal-Finance is leading the charge toward a greener future.
+      how Roopal-Wealth-Coach is leading the charge toward a greener future.
     </>
   ),
   desc_2: (
@@ -35,14 +35,14 @@ const blog_details_content: ContentType = {
       Sustainability is no longer an option—it’s a necessity. With increasing
       environmental concerns, industries are moving towards eco-friendly
       packaging solutions to reduce waste and minimize their carbon footprint.
-      Roopal-Finance recognizes this responsibility and has integrated
+      Roopal-Wealth-Coach recognizes this responsibility and has integrated
       sustainability into every aspect of its operations.
     </>
   ),
   desc_3: (
     <>
       One of the cornerstones of sustainable packaging is the use of
-      eco-friendly materials. At Roopal-Finance, we focus on:
+      eco-friendly materials. At Roopal-Wealth-Coach, we focus on:
       <ul>
         <li>
           <strong>Recyclable Plastics:</strong> Ensuring our products can be
@@ -80,11 +80,11 @@ const blog_details_content: ContentType = {
           environmental laws and standards.
         </li>
       </ul>
-      At Roopal-Finance, we believe in creating a future where innovation meets
-      responsibility. By continuously investing in research and development, we
-      aim to set new benchmarks for sustainable packaging in the industry. Join
-      us in shaping a sustainable future and explore our eco-friendly packaging
-      solutions today.
+      At Roopal-Wealth-Coach, we believe in creating a future where innovation
+      meets responsibility. By continuously investing in research and
+      development, we aim to set new benchmarks for sustainable packaging in the
+      industry. Join us in shaping a sustainable future and explore our
+      eco-friendly packaging solutions today.
     </>
   ),
 };

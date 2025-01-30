@@ -64,7 +64,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     <div className="offcanvas__contact-text">
                       <Link href="tel:+013-003-003-9993">
                         <span className="mailto:info@enofik.com">
-                          info@Roopal-Finance-coach.com
+                          info@Roopal-Wealth-Coach-coach.com
                         </span>
                       </Link>
                     </div>

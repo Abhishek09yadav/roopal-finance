@@ -2,7 +2,7 @@ import HomeOne from "@/components/homes/home-one";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Roopal-Finance",
+  title: "Roopal-Wealth-Coach",
 };
 const index = () => {
   return (

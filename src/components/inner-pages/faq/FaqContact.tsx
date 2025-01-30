@@ -27,8 +27,8 @@ const faq_contact_data: DataType[] = [
     id: 2,
     data_wow_delay: ".5s",
     title: "Mail Address",
-    contact_1: <>info@Roopal-Finance-coach.com</>,
-    contact_2: <>info@Roopal-Finance-coach.com</>,
+    contact_1: <>info@Roopal-Wealth-Coach-coach.com</>,
+    contact_2: <>info@Roopal-Wealth-Coach-coach.com</>,
   },
   {
     id: 3,

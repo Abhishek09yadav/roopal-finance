@@ -20,12 +20,12 @@ interface ContentType {
 const blog_details_content: ContentType = {
   title_1:
     "Packaging Innovations for Pharmaceuticals: Meeting Safety and Precision Standards",
-  title_2: "Why Choose Roopal-Finance for Pharmaceutical Packaging?",
+  title_2: "Why Choose Roopal-Wealth-Coach for Pharmaceutical Packaging?",
   desc_1: (
     <>
       The pharmaceutical industry demands the highest level of safety,
       precision, and compliance in packaging to protect products and ensure
-      patient well-being. Roopal-Finance is a trusted partner in providing
+      patient well-being. Roopal-Wealth-Coach is a trusted partner in providing
       innovative solutions tailored to these critical requirements.
     </>
   ),
@@ -50,7 +50,7 @@ const blog_details_content: ContentType = {
   ),
   desc_3: (
     <>
-      <h4>Roopal-Finance’s Solutions for Safety and Precision</h4>
+      <h4>Roopal-Wealth-Coach’s Solutions for Safety and Precision</h4>
       <ul>
         <li>
           <strong>Leak-Proof Bottles:</strong> Designed with advanced technology
@@ -74,11 +74,11 @@ const blog_details_content: ContentType = {
     <>
       <h4>Beyond Safety: Innovation in Design</h4>
       <p>
-        Roopal-Finance’s pharmaceutical packaging solutions are not just
+        Roopal-Wealth-Coach’s pharmaceutical packaging solutions are not just
         functional but also innovative, ensuring ease of use, aesthetic appeal,
         and enhanced brand identity.
       </p>
-      <h4>Why Choose Roopal-Finance for Pharmaceutical Packaging?</h4>
+      <h4>Why Choose Roopal-Wealth-Coach for Pharmaceutical Packaging?</h4>
       <ul>
         <li>
           <strong>Expertise in Material Science:</strong> Our team uses
@@ -95,10 +95,10 @@ const blog_details_content: ContentType = {
         </li>
       </ul>
       <p>
-        With Roopal-Finance’s packaging innovations, pharmaceutical companies
-        can achieve the perfect balance of safety, precision, and quality. Trust
-        us to deliver solutions that safeguard health and uphold your brand’s
-        reputation.
+        With Roopal-Wealth-Coach’s packaging innovations, pharmaceutical
+        companies can achieve the perfect balance of safety, precision, and
+        quality. Trust us to deliver solutions that safeguard health and uphold
+        your brand’s reputation.
       </p>
     </>
   ),

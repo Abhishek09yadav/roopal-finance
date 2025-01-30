@@ -25,8 +25,8 @@ const blog_details_content: ContentType = {
     <>
       In today’s competitive market, businesses require packaging solutions that
       not only meet their functional needs but also align with their brand
-      identity. At Roopal-Finance, we specialize in custom blow and injection
-      molded plastic products, offering a perfect blend of precision,
+      identity. At Roopal-Wealth-Coach, we specialize in custom blow and
+      injection molded plastic products, offering a perfect blend of precision,
       innovation, and quality.
     </>
   ),
@@ -79,15 +79,15 @@ const blog_details_content: ContentType = {
     <>
       <strong>Sustainability at the Core</strong>
       <br />
-      At Roopal-Finance, we are committed to eco-friendly practices. Our
+      At Roopal-Wealth-Coach, we are committed to eco-friendly practices. Our
       manufacturing processes minimize waste, and we actively explore ways to
       incorporate recycled materials into our products. This ensures a
       sustainable future while meeting your business goals.
       <br />
       <br />
-      Let Roopal-Finance be your trusted partner for custom blow and injection
-      molded plastic solutions. Contact us today to explore innovative packaging
-      that elevates your brand.
+      Let Roopal-Wealth-Coach be your trusted partner for custom blow and
+      injection molded plastic solutions. Contact us today to explore innovative
+      packaging that elevates your brand.
     </>
   ),
 };

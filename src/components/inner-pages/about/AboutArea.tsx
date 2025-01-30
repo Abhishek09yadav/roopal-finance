@@ -17,7 +17,7 @@ const about_content: ContentType = {
   title: "Our Journey",
   desc_1: (
     <>
-      Roopal-financewas established in 1984 with a vision to provide
+      Roopal-Wealth-Coachwas established in 1984 with a vision to provide
       high-quality packaging solutions to industries that demand reliability and
       precision. Starting with our first facility in surat, we have expanded our
       capabilities to include a second facility in Mundapali, ensuring we meet
