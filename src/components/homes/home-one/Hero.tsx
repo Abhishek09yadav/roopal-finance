@@ -117,7 +117,7 @@ const Hero = () => {
                           <></>{" "}
                           <span style={{ color: "#ffe000" }}>
                             {" "}
-                            Roopal Kanjara{" "}
+                            Roopal Kanjara
                           </span>
                           &quot;
                         </h2>
