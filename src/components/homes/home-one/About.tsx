@@ -80,7 +80,7 @@ const About = () => {
                         <h3>
                           <span className="count">
                             {/* <Count number={25} /> */}
-                            15+
+                            9+
                           </span>{" "}
                           Years
                         </h3>

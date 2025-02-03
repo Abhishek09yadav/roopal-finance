@@ -44,7 +44,7 @@ const AboutArea = () => {
             >
               <div className="about-image style-2">
                 <Image src={about_thumb} alt="about-img" />
-                <h4 className="title-text">15+ Years Experieance</h4>
+                <h4 className="title-text">9+ Years Experieance</h4>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6 mt-5 mt-lg-0">

@@ -56,7 +56,7 @@ const About3 = () => {
               >
                 <div className="about-image">
                   <Image src={about_thumb} alt="about-img" />
-                  <h4 className="title-text -2">15+ Years Experience</h4>
+                  <h4 className="title-text -2">9+ Years Experience</h4>
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 mt-5 mt-lg-0">

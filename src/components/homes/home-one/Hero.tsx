@@ -113,7 +113,7 @@ const Hero = () => {
                           data-animation="fadeInUp"
                           data-delay="1.3s"
                         >
-                          &quot;Your Path to Financial Mastery Starts Here with{" "}
+                          &quot;Your Path to Trading and Investment Starts Here with{" "}
                           <></>{" "}
                           <span style={{ color: "#ffe000" }}>
                             {" "}
