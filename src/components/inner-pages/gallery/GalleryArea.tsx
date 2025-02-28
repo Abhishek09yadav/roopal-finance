@@ -4,12 +4,12 @@ import Image from "next/image";
 import { useState } from "react";
 
 // Import all gallery images
-import gallery_img1 from "@/assets/img/gallery/01.jpg";
-import gallery_img2 from "@/assets/img/gallery/02.jpg";
-import gallery_img3 from "@/assets/img/gallery/03.jpg";
-import gallery_img4 from "@/assets/img/gallery/04.jpg";
-import gallery_img5 from "@/assets/img/gallery/05.jpg";
-import gallery_img6 from "@/assets/img/gallery/06.jpg";
+import gallery_img1 from "@/assets/img/roopal-images/img11.jpg";
+import gallery_img2 from "@/assets/img/roopal-images/img11.jpg";
+import gallery_img3 from "@/assets/img/roopal-images/img11.jpg";
+import gallery_img4 from "@/assets/img/roopal-images/img11.jpg";
+import gallery_img5 from "@/assets/img/roopal-images/img11.jpg";
+import gallery_img6 from "@/assets/img/roopal-images/img11.jpg";
 
 const GalleryArea = () => {
    const [photoIndex, setPhotoIndex] = useState<number | null>(null);

@@ -9,26 +9,26 @@ const project_data: DataType[] = [
    {
       id: 1,
       page: "home_1",
-      thumb: "/assets/img/project/01.jpg",
-      title: "Road map Engineering",
+      thumb: "/assets/img/roopal-images/img3.jpg",
+      title: "",
    },
    {
       id: 2,
       page: "home_1",
-      thumb: "/assets/img/project/02.jpg",
-      title: "Road map Engineering",
+      thumb: "/assets/img/roopal-images/img5.jpg",
+      title: "",
    },
    {
       id: 3,
       page: "home_1",
-      thumb: "/assets/img/project/03.jpg",
-      title: "Road map Engineering",
+      thumb: "/assets/img/roopal-images/img6.jpg",
+      title: "",
    },
    {
       id: 4,
       page: "home_1",
-      thumb: "/assets/img/project/02.jpg",
-      title: "Road map Engineering",
+      thumb: "/assets/img/roopal-images/img7.jpg",
+      title: "",
    },
 ];
 

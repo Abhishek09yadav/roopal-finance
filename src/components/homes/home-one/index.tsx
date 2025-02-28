@@ -19,6 +19,7 @@ import Image from "next/image";
 import img from "@/assets/img/BlueModernFuturisticBusinessRoadmap3.png";
 import clients from "@/assets/img/clients.png";
 import Testimonial from "../home-three/Testimonial";
+import GalleryArea from "@/components/inner-pages/gallery/GalleryArea";
 const HomeOne = () => {
   return (
     <>
@@ -34,8 +35,10 @@ const HomeOne = () => {
         {/* certificate */}
         {/* <Certificate/> */}
         {/*<Counter padding={true} />*/}
-        {/* <Team />*/}
-         <Testimonial/>
+        <Project />
+        {/* <GalleryArea/> */}
+        {/* <Team /> */}
+         <Testimonial padding={true}/>
         {/* <Testimonial padding={false} /> */}
         {/*<Blog />*/}
       </main>

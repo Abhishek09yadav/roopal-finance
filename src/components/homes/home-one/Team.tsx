@@ -45,7 +45,7 @@ const team_data: DataType[] = [
   },
 ];
 
-const Team = () => {
+const   Team = () => {
   const [activeId, setActiveId] = useState<number | null>(1);
 
   return (

@@ -56,10 +56,10 @@ const Project = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="section-title">
                 <span className="wow fadeInUp" data-wow-delay=".3s">
-                  OUR COMPLETED PROJECTS
-                </span>
+                GLIMPSES WITH LEADERS
+                                </span>
                 <h2 className="wow fadeInUp" data-wow-delay=".5s">
-                  Successfully completed projects for our clients
+                Insights & Moments with Industry Experts
                 </h2>
               </div>
             </div>
@@ -69,22 +69,20 @@ const Project = () => {
                 <div className="row">
                   <div className="col-md-8">
                     <p className="wow fadeInUp" data-wow-delay=".3s">
-                      With manufacturing facilities in surat and Mundapali, we
-                      specialize in providing custom-made and industry-standard
-                      packaging solutions for Agrochemicals, Pesticides,
-                      Fungicides, Bio-nutrients, Farm Chemicals, and more.
+                    Dive into exclusive conversations and experiences with visionaries, entrepreneurs, and change-makers 
+                    who are shaping the industry. Gain valuable insights, leadership wisdom, and innovative perspectives that drive success and transformation.
                     </p>
                   </div>
                   <div
                     className="col-md-4 text-end ps-0 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    <Link href="/project" className="theme-btn-2">
+                    {/* <Link href="/project" className="theme-btn-2">
                       View All Projects
                       <span className="shape-img">
                         <Image src={shape_1} alt="shape-img" />
                       </span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -102,9 +100,9 @@ const Project = () => {
                         className="project-image bg-cover"
                         style={{ backgroundImage: `url(${item.thumb})` }}
                       >
-                        <Link href="/project-details" className="post-box">
+                        {/* <Link href="/project-details" className="post-box">
                           <i className="fa-solid fa-location-arrow"></i>
-                        </Link>
+                        </Link> */}
                         <div className="project-content">
                           <h4>
                             <Link href="/project-details">{item.title}</Link>

@@ -209,7 +209,7 @@ const Testimonial = ({ padding }: any) => {
       }`}
       style={{ paddingTop: "130px" }}
     >
-      <div className="container mt-5">
+      <div className="container ">
         <div className="section-title text-center">
           {/* <span className="wow fadeInUp">PUBLIC TESTIMONIAL</span> */}
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
