@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import about_arrow from "@/assets/img/arrow-shape.png";
-import about_thumb from "@/assets/img/placeholder/665 x 732.png";
+import about_thumb from "@/assets/img/roopal-images/img13.png";
 
 interface ContentType {
   sub_title: string;
@@ -66,7 +66,7 @@ const AboutArea = () => {
                     <li key={i}>{list}</li>
                   ))}
                 </ul>
-                <Link
+                {/* <Link
                   href="/about"
                   className="theme-btn-2 mt-5 wow fadeInUp"
                   data-wow-delay=".9s"
@@ -75,7 +75,7 @@ const AboutArea = () => {
                   <span className="shape-img">
                     <Image src={about_arrow} alt="shape-img" />
                   </span>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

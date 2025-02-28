@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import Project from "./Project";
 import Service from "./Service";
 import Team from "./Team";
-import Testimonial from "./Testimonial";
+
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import Faq from "@/components/common/Faq";
 import FaqArea from "@/components/inner-pages/faq/FaqArea";
@@ -18,6 +18,7 @@ import Certificate from "./Certificate";
 import Image from "next/image";
 import img from "@/assets/img/BlueModernFuturisticBusinessRoadmap3.png";
 import clients from "@/assets/img/clients.png";
+import Testimonial from "../home-three/Testimonial";
 const HomeOne = () => {
   return (
     <>
@@ -28,14 +29,14 @@ const HomeOne = () => {
         <MarqueSection />
         <Service />
 <About3/>
-         {/*<Project />*/}
+         {/*<Project />*/}  
         <About />
         {/* certificate */}
-        {/*<Certificate/>*/}
+        {/* <Certificate/> */}
         {/*<Counter padding={true} />*/}
         {/* <Team />*/}
-
-        {/*<Testimonial padding={false} />*/}
+         <Testimonial/>
+        {/* <Testimonial padding={false} /> */}
         {/*<Blog />*/}
       </main>
       <FaqArea />

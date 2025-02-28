@@ -5,7 +5,7 @@ import { useState } from "react";
 import VideoPopup from "@/modals/VideoPopup";
 
 import about_arrow1 from "@/assets/img/arrow.png";
-import about_thumb from "@/assets/img/mojCommunity.jpeg";
+import about_thumb from "@/assets/img/roopal-images/img2.jpg";
 
 interface ContentType {
   sub_title: string;

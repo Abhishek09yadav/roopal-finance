@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import about_img1 from "@/assets/img/arrow-shape.png";
-import about_img2 from "@/assets/img/placeholder/665 x 732.png";
+import about_img2 from "@/assets/img/roopal-images/img12.jpg";
 
 const AboutTwo = () => {
   return (
@@ -92,7 +92,7 @@ const AboutTwo = () => {
                   className="theme-btn-2 mt-5 wow fadeInUp"
                   data-wow-delay=".9s"
                 >
-                  know More About us
+                 Join Moj Club
                   <span className="shape-img">
                     <Image src={about_img1} alt="shape-img" />
                   </span>

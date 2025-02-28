@@ -41,12 +41,7 @@ const About2 = () => {
                   clients&apos; unique needs, making her a trusted name in
                   wealth coaching.
                 </p>
-                <p className="wow fadeInUp" data-wow-delay=".7s">
-                  Your ideas have a purpose, so choose words that accurately
-                  express them. Ensure your grammar is flawless as it impacts
-                  your credibility. Use the active voice whenever possible as it
-                  makes any narrative easier to read.
-                </p>
+          
                 <div
                   className="about-info"
                   style={{
