@@ -4,6 +4,7 @@ import Link from "next/link";
 import image from "@/assets/img/roopal-images/img1.jpg";
 import about_arrow from "@/assets/img/arrow-shape.png";
 
+
 const About2 = () => {
   return (
     <section className="about-section fix section-padding">
