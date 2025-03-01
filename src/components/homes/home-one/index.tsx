@@ -15,7 +15,7 @@ import About3 from "../home-two/About3";
 import About2 from "../home-three/About2";
 import MarqueSection from "../home-two/MarqueSection";
 import Certificate from "./Certificate";
-import ImageSlider from "./ImageSlider";
+
 
 import Image from "next/image";
 import img from "@/assets/img/BlueModernFuturisticBusinessRoadmap3.png";
