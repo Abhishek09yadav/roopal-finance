@@ -1,4 +1,3 @@
-"use client";
 import VideoPopup from "@/modals/VideoPopup";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,7 +11,7 @@ import about_img4 from "@/assets/img/arrow-shape.png";
 import about_img5 from "@/assets/img/fac1.jpeg";
 import about_img6 from "@/assets/img/fac1R.jpeg";
 import about_img7 from "@/assets/img/image4.jpeg";
-import about_img8 from "@/assets/img/NewProduct.png";
+import about_img8 from "@/assets/img/roopal-images/img4.jpg";
 
 interface DataType {
   sub_title: string;
@@ -51,25 +50,25 @@ const About = () => {
                 data-wow-delay=".4s"
               >
                 <div
-                  className="about-image "
+                  className="about-image"
                   style={{
                     border: "4px solid white",
                     borderRadius: "10px",
-                    objectFit: "cover",
+                    position: "relative",
+                    width: "100%",
+                    // height: "100%",
                   }}
                 >
                   <Image
                     src={about_img8}
                     alt="img"
+                    fill
                     style={{
-                      border: "4px solid white",
+                      objectFit: "scale-down",
                       borderRadius: "10px",
                     }}
                   />
-                  <div
-                    className="border-shape"
-                    // style={{ backgroundColor: "#ffe000" }}
-                  >
+                  <div className="border-shape">
                     {/* <Image src={about_img2} alt="shape-img" /> */}
                   </div>
 

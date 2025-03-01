@@ -54,6 +54,12 @@ const project_data: DataType[] = [
       thumb: "/assets/img/roopal-images/img14.jpg",
       title: "",
    },
+   {
+      id: 9,
+      page: "home_1",
+      thumb: "/assets/img/roopal-images/img11.jpg",
+      title: "",
+   },
 ];
 
 export default project_data;
