@@ -42,6 +42,7 @@ const setting = {
 const Project = () => {
   return (
     <section className="project-section fix section-padding pb-0 mt-30">
+    
       <div className="container">
         <div className="line-area">
           <span></span>
@@ -96,19 +97,17 @@ const Project = () => {
                   .filter((items) => items.page === "home_1")
                   .map((item) => (
                     <SwiperSlide key={item.id} className="swiper-slide">
-                      <div
-                        className="project-image bg-cover"
-                        style={{ backgroundImage: `url(${item.thumb})` }}
-                      >
-                        {/* <Link href="/project-details" className="post-box">
-                          <i className="fa-solid fa-location-arrow"></i>
-                        </Link> */}
-                        <div className="project-content">
-                          <h4>
-                            <Link href="/project-details">{item.title}</Link>
-                          </h4>
-                        </div>
-                      </div>
+                     <div className="">
+  <Image
+    src={item.thumb}
+    alt={item.title}
+    className="img-fluid w-100"
+    width={600} // Adjust width as needed
+    height={400} // Adjust height as needed
+    style={{ objectFit: "contain" }} // Ensures full image is visible
+  />
+</div>
+
                     </SwiperSlide>
                   ))}
               </Swiper>

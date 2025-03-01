@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Count from "@/components/common/Count";
 import Link from "next/link";
-import image from "@/assets/img/smallbg.jpeg";
+import image from "@/assets/img/roopal-images/img1.jpg";
 import about_arrow from "@/assets/img/arrow-shape.png";
 
 const About2 = () => {

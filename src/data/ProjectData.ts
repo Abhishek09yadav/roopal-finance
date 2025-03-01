@@ -30,6 +30,30 @@ const project_data: DataType[] = [
       thumb: "/assets/img/roopal-images/img7.jpg",
       title: "",
    },
+   {
+      id: 5,
+      page: "home_1",
+      thumb: "/assets/img/roopal-images/img8.jpg",
+      title: "",
+   },
+   {
+      id: 6,
+      page: "home_1",
+      thumb: "/assets/img/roopal-images/img9.jpg",
+      title: "",
+   },
+   {
+      id: 7,
+      page: "home_1",
+      thumb: "/assets/img/roopal-images/img10.jpg",
+      title: "",
+   },
+   {
+      id: 8,
+      page: "home_1",
+      thumb: "/assets/img/roopal-images/img14.jpg",
+      title: "",
+   },
 ];
 
 export default project_data;
