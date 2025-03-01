@@ -72,7 +72,7 @@ const About = () => {
                     {/* <Image src={about_img2} alt="shape-img" /> */}
                   </div>
 
-                  <div className="working-area float-bob-y">
+                  <div className="working-area float-bob-y d-none d-lg-block">
                     <div className="inner">
                       <div className="icon-box">
                         <i className="fa-solid fa-medal"></i>
